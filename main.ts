@@ -8,6 +8,7 @@ basic.showIcon(IconNames.SmallDiamond)
 basic.forever(function () {
     if (input.buttonIsPressed(Button.AB)) {
         basic.showIcon(IconNames.Square)
+        serial.writeLine("-1,0,0,0")
         game.pause()
     }
     count = count + 1
