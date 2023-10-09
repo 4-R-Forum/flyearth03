@@ -1,3 +1,6 @@
+/**
+ * Signed in with Google
+ */
 let cmd = ""
 let roll = 0
 let pitch = 0
